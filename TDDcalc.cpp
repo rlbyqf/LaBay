@@ -11,7 +11,10 @@ int addition(int x,int y)
 	
 }
 
-
+int substraction(int x, int y)
+{
+	return x - y;
+}
 
 
 
@@ -22,9 +25,10 @@ int addition(int x,int y)
 
 int main()
 {
-	
-	cout << addition(4,5);
-	
+	int num;
+	num = addition(4,5);
+	cout << num;
+	num = substraction(4,5);
 	
 	
 	return 0;
