@@ -6,23 +6,23 @@
 #include <iostream>
 using namespace std;
 
-int addition(int x,int y)
+float addition(int x,int y)
 {
 	return x + y;
 }
 
-int subtraction(int x, int y)
+float subtraction(float x, float y)
 {
 	return x - y;
 }
 
 
-int multiplication(int x , int y)
+float multiplication(float x , float y)
 {
 	return x*y;
 }
 
-float division(int x , float y)
+float division(float x , float y)
 {
 	return x/y;
 }
@@ -31,8 +31,8 @@ float division(int x , float y)
 
 int main()
 {
-	int num;
-	int x;
+	float num;
+	float x;
 	float y;
 	char leave;
 	
