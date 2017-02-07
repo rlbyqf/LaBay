@@ -4,6 +4,7 @@
 
 
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 float addition(int x,int y)
@@ -51,7 +52,7 @@ int main()
 			cout << "Please enter the two numbers to be added" <<endl;
 			cin >> x;
 			cin >> y;
-			cout << addition(x,y)<<endl;
+			cout << setprecision(8) << addition(x,y)<<endl;
 		}
 	
 		if(num==2)
@@ -59,7 +60,7 @@ int main()
 			cout << "Please enter the two numbers to be subtracted" << endl;
 			cin >> x;
 			cin >> y;
-			cout << subtraction(x,y)<<endl;
+			cout << setprecision(8) << subtraction(x,y)<<endl;
 		}
 	
 		if(num==3)
@@ -67,7 +68,7 @@ int main()
 			cout << "Please enter the two numbers to be multiplied" << endl;
 			cin >> x;
 			cin >> y;
-			cout << multiplication(x,y)<<endl;
+			cout << setprecision(8) << multiplication(x,y)<<endl;
 		}
 	
 		if(num==4)
@@ -75,7 +76,7 @@ int main()
 			cout << "Please enter the two numbers to be divided" << endl;
 			cin >> x;
 			cin >> y;
-			cout << division(x,y)<<endl;
+			cout << setprecision(8) << division(x,y)<<endl;
 		}
 	
 		cout << "Would you like to perform another operation?(y/n)" <<endl;
